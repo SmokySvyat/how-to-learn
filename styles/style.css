@@ -9,6 +9,7 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
   position: relative;
 }
+
 /************************************************
                 Приоритеты
 ************************************************/
@@ -32,6 +33,7 @@
   max-height: 756px;
   background-color: #f2f2f2;
   display: flex;
+  position: relative;
   /* выше установили ограничения для секции */
 }
 
@@ -95,6 +97,66 @@
   top: 30px;
   left: 64px;
 }
+/************************************************
+               Description
+************************************************/
+.description {
+  min-width: 960px;
+  min-height: 335px;
+  
+}
+
+.two-columns {
+  width: 80%;
+  margin: 100px auto 100px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.two-columns__brief {
+  width: 175px;
+  margin: 0;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph {
+  margin: 0;
+}
+
+.two-columns__paragraph_vertical-margin_thirty {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/************************************************
+                  Fonts
+************************************************/
+.two-columns__title_fonts {
+  line-height: 1.2em;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+}
+
+.two-columns__paragraph_fonts {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600;
+}
+/************************************************
+                  Digits
+************************************************/
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
