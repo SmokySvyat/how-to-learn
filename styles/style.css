@@ -266,6 +266,7 @@
                Kaufman
 ************************************************/
 .kaufman {
+  min-width: 960px;
   display: flex;
   position: relative;
   background-color: #1f1f1f;
@@ -309,4 +310,86 @@
   color: white;
   margin: 0;
 }
+/************************************************
+                  Footer
+************************************************/
+.footer {
+  border: 1px solid #2f80ed;
+  min-height: 350px;
+  min-width: 960px;
+  background-color: #1f1f1f;  
+  color: white;
+}
 
+.footer__columns {
+  border: 1px solid #2f80ed;
+  min-height: 250px;
+  width: 90%;
+  margin: 60px auto 40px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__columns_copyright {
+  border: 1px solid red;
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__columns_info {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__columns_social {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo_place_footer {
+  border: 1px solid red;
+  background-image: url(../images/logo_place_footer.svg);
+}
+
+.footer__author {
+  border: 1px solid red;
+  margin: 18px 0 18px 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__columns-heading {
+  border: 1px solid red;
+  margin: 0 0 20px 0;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer__columns-links {
+  border: 1px solid red;
+  margin: 0 0 16px 0;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__social-icon {
+  border: 1px solid red;
+  width: 16px;
+  height: 16px;
+  margin: 0 10px 0 0;
+}
+
+.footer__columns-link {
+  border: 1px solid red;
+  color: #f2f2f2;
+  /* line-height: 16px; */
+  font-size: 16px;
+  font-weight: normal;
+}
