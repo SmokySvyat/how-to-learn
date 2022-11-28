@@ -9,10 +9,15 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
   position: relative;
 }
-
 /************************************************
-                Приоритеты
+                Elements
 ************************************************/
+/****Links****/
+.link {
+  text-decoration: none;
+}
+
+/****Priority****/
 .priority_zero {
   z-index: 0;
 }
@@ -24,6 +29,30 @@
 .priority_two {
   z-index: 2;
 }
+
+/****Logo****/
+.logo {
+  width: 228px;
+  height: 32px;
+  background-size: cover;
+}
+
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
+
+.logo_place_footer {
+  background-image: url(../images/logo_place_footer.svg);
+}
+
+/****Fonts****/
+.font-size_s {
+  line-height: 1.2em;
+  font-size: 18px;
+  font-weight: normal;
+}
 /************************************************
                   Header
 ************************************************/
@@ -34,7 +63,6 @@
   background-color: #f2f2f2;
   display: flex;
   position: relative;
-  /* выше установили ограничения для секции */
 }
 
 .header__title {
@@ -57,7 +85,6 @@
 }
 
 .header__link {
-  text-decoration: none;
   color: #2f80ed;
 }
 
@@ -74,7 +101,6 @@
   height: 608px;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -82,20 +108,6 @@
   position: absolute;
   right: 0;
   top: 64px;
-}
-/************************************************
-                   Logo
-************************************************/
-.logo {
-  width: 228px;
-  height: 32px;
-  background-size: cover;
-}
-
-.logo_place_header {
-  position: absolute;
-  top: 30px;
-  left: 64px;
 }
 /************************************************
                Description
@@ -131,14 +143,6 @@
 .two-columns__paragraph_vertical-margin_thirty {
   margin-top: 30px;
   margin-bottom: 30px;
-}
-/************************************************
-                  Fonts
-************************************************/
-.font-size_s {
-  line-height: 1.2em;
-  font-size: 18px;
-  font-weight: normal;
 }
 
 .two-columns__title_fonts {
@@ -205,9 +209,6 @@
 }
 
 .table__text {
-  line-height: 1.2em;
-  font-size: 18px;
-  font-weight: normal;
   margin: 0 0 20px 0;
 }
 
@@ -251,7 +252,6 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  text-decoration: none;
   color: #2f80ed;
 }
 
@@ -314,15 +314,15 @@
                   Footer
 ************************************************/
 .footer {
-  border: 1px solid #2f80ed;
   min-height: 350px;
   min-width: 960px;
   background-color: #1f1f1f;  
   color: white;
+  display: flex;
+  position: relative;
 }
 
 .footer__columns {
-  border: 1px solid #2f80ed;
   min-height: 250px;
   width: 90%;
   margin: 60px auto 40px auto;
@@ -331,7 +331,6 @@
 }
 
 .footer__columns_copyright {
-  border: 1px solid red;
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
@@ -339,24 +338,16 @@
 }
 
 .footer__columns_info {
-  border: 1px solid red;
-  display: flex;
-  flex-direction: column;
+  line-height: 30px;
+  font-size: 18px;
 }
 
 .footer__columns_social {
-  border: 1px solid red;
-  display: flex;
-  flex-direction: column;
-}
-
-.logo_place_footer {
-  border: 1px solid red;
-  background-image: url(../images/logo_place_footer.svg);
+  line-height: 30px;
+  font-size: 18px;
 }
 
 .footer__author {
-  border: 1px solid red;
   margin: 18px 0 18px 0;
   line-height: 25px;
   font-size: 18px;
@@ -364,7 +355,6 @@
 }
 
 .footer__columns-heading {
-  border: 1px solid red;
   margin: 0 0 20px 0;
   line-height: 30px;
   font-size: 18px;
@@ -372,24 +362,21 @@
 }
 
 .footer__columns-links {
-  border: 1px solid red;
   margin: 0 0 16px 0;
-  line-height: 30px;
-  font-size: 18px;
   font-weight: normal;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__social-icon {
-  border: 1px solid red;
   width: 16px;
   height: 16px;
   margin: 0 10px 0 0;
 }
 
 .footer__columns-link {
-  border: 1px solid red;
   color: #f2f2f2;
-  /* line-height: 16px; */
-  font-size: 16px;
   font-weight: normal;
+  display: flex;
+  align-items: center;
 }
