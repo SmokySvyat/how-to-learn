@@ -364,8 +364,7 @@
 .footer__columns-links {
   margin: 0 0 16px 0;
   font-weight: normal;
-  display: flex;
-  flex-direction: column;
+  list-style: none;
 }
 
 .footer__social-icon {
@@ -379,4 +378,5 @@
   font-weight: normal;
   display: flex;
   align-items: center;
+  margin: 0;
 }
