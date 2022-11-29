@@ -4,6 +4,7 @@ body, h1, h2, h3, h4, p, a, ul {
   font-weight: normal;
   padding: 0;
   list-style-type: none;
+  text-decoration: none;
 }
 
 .page {
@@ -18,14 +19,8 @@ body, h1, h2, h3, h4, p, a, ul {
   position: relative;
 }
 /************************************************
-                Elements
+                Logo
 ************************************************/
-/****Links****/
-.link {
-  text-decoration: none;
-}
-
-/****Logo****/
 .logo {
   width: 228px;
   height: 32px;
@@ -71,7 +66,6 @@ body, h1, h2, h3, h4, p, a, ul {
   bottom: 30px;
   line-height: 25px;
   font-size: 18px;
-  font-weight: normal;
   z-index: 2;
 }
 
@@ -121,7 +115,6 @@ body, h1, h2, h3, h4, p, a, ul {
   margin: 0;
   line-height: 1.2em;
   font-size: 18px;
-  font-weight: normal;
   color: #2f80ed;
 }
 
@@ -130,7 +123,6 @@ body, h1, h2, h3, h4, p, a, ul {
   min-width: 784px;
   line-height: 34px;
   font-size: 24px;
-  font-weight: normal;
 }
 
 .two-columns__paragraph {
@@ -170,7 +162,6 @@ body, h1, h2, h3, h4, p, a, ul {
   text-align: center;
   line-height: 34px;
   font-size: 24px;
-  font-weight: normal;
   z-index: 2;
 }
 
@@ -198,7 +189,6 @@ body, h1, h2, h3, h4, p, a, ul {
   margin: 20px 0 0 0;
   line-height: 1.2em;
   font-size: 18px;
-  font-weight: normal;
 }
 /************************************************
                   Feynman
@@ -226,7 +216,6 @@ body, h1, h2, h3, h4, p, a, ul {
   margin: 70px 0 0 0;
   line-height: 51px;
   font-size: 36px;
-  font-weight: normal;
   z-index: 2;
 }
 
@@ -236,7 +225,6 @@ body, h1, h2, h3, h4, p, a, ul {
   right: 48px;
   line-height: 51px;
   font-size: 36px;
-  font-weight: normal;
   color: #2f80ed;
   z-index: 2;
 }
@@ -338,7 +326,6 @@ body, h1, h2, h3, h4, p, a, ul {
   margin: 18px 0 18px 0;
   line-height: 25px;
   font-size: 18px;
-  font-weight: normal;
 }
 
 .footer__column-heading {
@@ -350,7 +337,6 @@ body, h1, h2, h3, h4, p, a, ul {
 
 .footer__column-links {
   margin: 0 0 16px 0;
-  font-weight: normal;
   list-style: none;
 }
 
@@ -362,7 +348,6 @@ body, h1, h2, h3, h4, p, a, ul {
 
 .footer__column-link {
   color: #f2f2f2;
-  font-weight: normal;
   display: flex;
   align-items: center;
   margin: 0;
