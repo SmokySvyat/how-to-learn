@@ -105,8 +105,7 @@ body, h1, h2, h3, h4, p, a, ul {
 ************************************************/
 .description {
   min-width: 960px;
-  min-height: 335px;
-  
+  min-height: 335px;  
 }
 
 .two-columns {
