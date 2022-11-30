@@ -1,10 +1,8 @@
 body, h1, h2, h3, h4, p, a, ul {
-  margin: 0;
+  
   font-size:100%;
-  font-weight: normal;
-  padding: 0;
-  list-style-type: none;
-  text-decoration: none;
+  
+  
 }
 
 .page {
@@ -51,26 +49,29 @@ body, h1, h2, h3, h4, p, a, ul {
 
 .header__title {
   width: 730px;
+  margin: 0 0 0 64px;
   font-size: 102px;
   font-weight: 600;
   line-height: 96px;
   align-self: center;
-  margin-left: 64px;
   z-index: 2;
 }
 
 .header__subtitle {
   width: 388px;
+  margin: 0;
   position: absolute;
   left: 64px;
   bottom: 30px;
   line-height: 25px;
   font-size: 18px;
+  font-weight: normal;
   z-index: 2;
 }
 
 .header__link {
   color: #2f80ed;
+  text-decoration: none;
   z-index: 2;
 }
 
@@ -116,6 +117,7 @@ body, h1, h2, h3, h4, p, a, ul {
   margin: 0;
   line-height: 1.2em;
   font-size: 18px;
+  font-weight: normal;
   color: #2f80ed;
 }
 
@@ -124,6 +126,7 @@ body, h1, h2, h3, h4, p, a, ul {
   min-width: 784px;
   line-height: 34px;
   font-size: 24px;
+  font-weight: normal;
 }
 
 .two-columns__paragraph {
@@ -163,6 +166,7 @@ body, h1, h2, h3, h4, p, a, ul {
   text-align: center;
   line-height: 34px;
   font-size: 24px;
+  font-weight: normal;
   z-index: 2;
 }
 
@@ -173,6 +177,8 @@ body, h1, h2, h3, h4, p, a, ul {
   justify-content: space-between;
   margin: 0 auto 100px auto;
   z-index: 2;
+  padding: 0;
+  list-style-type: none;
 }
 
 .table__cell {
@@ -190,6 +196,7 @@ body, h1, h2, h3, h4, p, a, ul {
   margin: 20px 0 0 0;
   line-height: 1.2em;
   font-size: 18px;
+  font-weight: normal;
 }
 /************************************************
                   Feynman
@@ -217,6 +224,7 @@ body, h1, h2, h3, h4, p, a, ul {
   margin: 70px 0 0 0;
   line-height: 51px;
   font-size: 36px;
+  font-weight: normal;
   z-index: 2;
 }
 
@@ -226,8 +234,10 @@ body, h1, h2, h3, h4, p, a, ul {
   right: 48px;
   line-height: 51px;
   font-size: 36px;
+  font-weight: normal;
   color: #2f80ed;
   z-index: 2;
+  text-decoration: none;
 }
 
 .feynman__img {
@@ -327,6 +337,7 @@ body, h1, h2, h3, h4, p, a, ul {
   margin: 18px 0 18px 0;
   line-height: 25px;
   font-size: 18px;
+  font-weight: normal;
 }
 
 .footer__column-heading {
@@ -348,8 +359,12 @@ body, h1, h2, h3, h4, p, a, ul {
 }
 
 .footer__column-link {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
   color: #f2f2f2;
   display: flex;
   align-items: center;
+  text-decoration: none;
   margin: 0;
 }
