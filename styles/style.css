@@ -159,7 +159,7 @@
   z-index: 2;
 } */
 
-.table {
+/* .table {
   width: 1100px;
   display: flex;
   flex-wrap: wrap;
@@ -187,7 +187,7 @@
   line-height: 1.2em;
   font-size: 18px;
   font-weight: normal;
-}
+} */
 /************************************************
                   Feynman
 ************************************************/
@@ -269,7 +269,7 @@
   color: white;
 } */
 
-.table_theme_dark {
+/* .table_theme_dark {
   margin-bottom: 90px;
 }
 
@@ -286,7 +286,7 @@
 
 .table__text_theme_dark {
   color: white;
-}
+} */
 /************************************************
                   Footer
 ************************************************/
