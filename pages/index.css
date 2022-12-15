@@ -1,6 +1,22 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/root/root.css);
-
+/*description*/
+/*techniques*/
+/*video*/
+/*oakley*/
+/*feynman*/
+@import url(../blocks/main/feynman/feynman.css);
+@import url(../blocks/main/feynman/__title/feynman__title.css);
+@import url(../blocks/main/feynman/__subtitle/feynman__subtitle.css);
+@import url(../blocks/main/feynman/__link/feynman__link.css);
+@import url(../blocks/main/feynman/__img/feynman__img.css);
+/*digits*/
+/*khan*/
+/*kaufman*/
+@import url(../blocks/main/kaufman/kaufman.css);
+@import url(../blocks/main/kaufman/kaufman-triangle.css);
+/*resources*/
+/*footer*/
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);

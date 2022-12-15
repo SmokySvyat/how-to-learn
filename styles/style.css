@@ -195,7 +195,7 @@
 /************************************************
                   Feynman
 ************************************************/
-.feynman {
+/* .feynman {
   min-height: 890px;
   background-color: #f2f2f2;
   display: flex;
@@ -241,11 +241,11 @@
   width: 867px;
   height: 637px;
   z-index: 0;
-}
+} */
 /************************************************
                Kaufman
 ************************************************/
-.kaufman {
+/* .kaufman {
   min-width: 960px;
   display: flex;
   position: relative;
@@ -262,7 +262,7 @@
   position: absolute;
   top: 0;
   right: -210px;
-}
+} */
 
 .section-title_theme_dark {
   color: white;
