@@ -1,7 +1,7 @@
 .two-columns {
     min-width: 960px; /*без этого свойства заголовок уплывает вверх*/
     width: 80%;
-    margin: 100px auto 100px auto;
+    margin: 100px auto 0 auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;

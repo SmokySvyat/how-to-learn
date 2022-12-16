@@ -84,7 +84,7 @@
 
 /*kaufman*/
 @import url(../blocks/kaufman/kaufman.css);
-@import url(../blocks/kaufman/kaufman-triangle.css);
+@import url(../blocks/kaufman/kaufman__triangle.css);
 
 /*resources*/
 @import url(../blocks/resources/resources.css);

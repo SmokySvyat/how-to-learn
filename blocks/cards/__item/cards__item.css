@@ -9,3 +9,7 @@
 .cards__item:nth-child(3) {
     margin: 0 0 60px 0;
 }
+
+.cards__item:last-of-type {
+    margin: 0;
+}

@@ -5,6 +5,7 @@
     font-weight: normal;
     text-decoration: none;
     transition: linear 0.2s;
+    align-self: baseline;
   }
 
   .khan__buy-link:hover {

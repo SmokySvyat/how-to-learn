@@ -1,6 +1,6 @@
 .khan__book-pic {
     margin: 0 48px 0 0;
     width: 620px;
-    height: 608px;
+    min-height: 900px; /*без этого свойства картинка растягивается и не соответствует брифу*/
     overflow: hidden;
 }
