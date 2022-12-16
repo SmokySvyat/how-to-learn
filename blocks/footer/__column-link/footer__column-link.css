@@ -7,4 +7,9 @@
     align-items: center;
     text-decoration: none;
     margin: 0;
+    transition: linear 0.2s;
+  }
+
+  .footer__column-link:hover {
+    opacity: 0.6;
   }
